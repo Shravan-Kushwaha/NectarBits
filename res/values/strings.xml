@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Practical1</string>
+
+    <string-array name="City">
+        <item>Ahmedabad</item>
+        <item>Delhi</item>
+        <item>Chennai</item>
+        <item>Mumbai</item>
+        <item>Surat</item>
+
+    </string-array>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="passworderror">Enter a valid PassWord</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_record">Record Video</string>
+    <string name="action_save">Save</string>
+    <string name="action_label">Add Label</string>
+    <string name="action_play">Play Video</string>
+    <string name="default_notification_channel_id">Hello world!</string>
+    <string name="msg_token_fmt">Hello world!</string>
+
+</resources>

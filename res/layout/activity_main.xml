@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/RgHobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="Hobbies"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <RadioButton
+            android:id="@+id/Chess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:hint="Chess"
+            android:text="Chess" />
+
+        <RadioButton
+            android:id="@+id/Cricket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:hint="Cricket"
+            android:text="Cricket" />
+
+        <RadioButton
+            android:id="@+id/VolleyBall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:hint="VolleyBall"
+            android:text="VolleyBall" />
+
+        <RadioButton
+            android:id="@+id/Cards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:hint="Cards"
+            android:text="Cards" />
+
+        <RadioButton
+            android:id="@+id/Football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:hint="Football"
+            android:text="Football" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="490dp"
+        android:text="hobbies"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="320dp"
+        android:text="save" />
+
+</RelativeLayout>

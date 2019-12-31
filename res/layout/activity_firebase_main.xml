@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practical_2_FireBase.FirebaseMain">
+
+
+    <Button
+        android:id="@+id/FireBtnToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="Show_Token"
+        android:text="Show Token ">
+
+    </Button>
+
+<!--    <Button-->
+<!--        android:id="@+id/FireBtnNotification"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginStart="126dp"-->
+<!--        android:layout_marginLeft="126dp"-->
+<!--        android:layout_marginTop="502dp"-->
+<!--        android:onClick="Send_Notification"-->
+<!--        android:text="Send Notification">-->
+
+<!--    </Button>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/FireTxtToken"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/FireBtnToken"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:layout_marginBottom="255dp"-->
+<!--        android:text="your Token Is :"></TextView>-->
+
+
+</RelativeLayout>

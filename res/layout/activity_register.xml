@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Practical1.Activities.RegisterActivity">
+<EditText
+    android:id="@+id/edtName"
+    android:layout_width="match_parent"
+    android:layout_height="30sp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:text="Ronak"
+    android:background="#dddddd"
+    android:hint="Name">
+
+</EditText>
+
+    <EditText
+        android:id="@+id/edtEmailSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#dddddd"
+        android:text="Shravan1@gmail.com"
+        android:inputType="textEmailAddress"
+        android:hint="Email">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#dddddd"
+        android:hint="Phone Number"
+        android:text="9574859625"
+        android:inputType="phone"
+        android:maxLength="10">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtPassWordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#dddddd"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:text="QAZwsx!@#123"
+        android:hint="PassWord">
+
+    </EditText>
+    <EditText
+        android:id="@+id/edtPassConfirmWord"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginTop="15dp"
+        android:background="#dddddd"
+        android:text="QAZwsx!@#123"
+        android:layout_marginRight="15dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:hint="Confirm PassWord">
+
+    </EditText>
+    <Button
+        android:id="@+id/btnRegister"
+        android:onClick="Register"
+        android:text="Register"
+        android:textStyle="bold"
+        android:background="#0AD1B3"
+        android:textColor="#333333"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Register? Login!"
+        android:textSize="18sp"
+        android:onClick="RegisterActivity"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="#0AD1B3">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtRegister1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center">
+
+        </TextView>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar_cyclicReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+</LinearLayout>

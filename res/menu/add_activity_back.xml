@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="LogOut"
+        android:onClick="Logout"
+        app:showAsAction="ifRoom" >
+</item>
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:onClick="NextActivity"
+        android:title="Add"
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>
